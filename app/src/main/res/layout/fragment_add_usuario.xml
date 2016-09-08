@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlyAgregarUsuarioForm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".modules.AgregarUsuario.ui.AgregarUsuarioFragment">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/wrpEdtAgregarNombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/edtAgregarNombreUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/agregarUsuario.hint.nombreUsuario"
+            android:inputType="text"
+            android:textAllCaps="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/wrpEdtAgregarCodigoSeguridadUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wrpEdtAgregarNombreUsuario"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/edtAgregarCodigoSeguridadUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/agregarUsuario.hint.codigoSeguridadUsuario"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/pgbAgregarUsuarioProgress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+</RelativeLayout>

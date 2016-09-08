@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Combustible</string>
+
+    <string name="login.text.usuario">Usuario</string>
+    <string name="login.text.codigoSeguridad">Codigo de Seguridad</string>
+    <string name="login.button.confirmarCodigo">Confirmar Codigo</string>
+    <string name="login.action.title">Sign in</string>
+    <string name="login.error.usuario">Este usuario no es valido</string>
+    <string name="login.error.codigoSeguridad">Codigo de Seguridad demasiado corto</string>
+    <string name="login.error.codigoSeguridadIncorrecto">Codigo de seguridad incorrecto</string>
+    <string name="login.error.campoRequerido">Este campo es requerido</string>
+
+    <string name="configuracionUsuario.text.title">Configuración de Usuarios</string>
+
+    <string name="configuracionPrecio.text.title">Configuración de Precios</string>
+    <string name="configuracionPrecio.text.precioUno">Precio Uno</string>
+    <string name="configuracionPrecio.text.precioDos">Precio Dos</string>
+    <string name="configuracionPrecio.text.precioTres">Precio Tres</string>
+    <string name="configuracionPrecio.text.precioCuatro">Precio Cuatro</string>
+    <string name="configuracionPrecio.text.registrarPrecios">Registrar Precios</string>
+    <string name="configuracionPrecio.text.conexionEstablecida">Conexion con el dispositivo establecida</string>
+    <string name="configuracionPrecio.text.conexionNoEstablecida">Conexion con el dispositivo cerrada</string>
+    <string name="configuracionPrecio.text.conexionError">La conexion con el dispositivo no se ha establecido verifica tu conexion WIFI con el dispositivo.</string>
+
+    <string name="usuarioList.text.idUsuario">ID: %s</string>
+    <string name="usuarioList.text.idUsuarioDefault">ID</string>
+    <string name="usuarioList.text.nombreUsuario">Usuario: %s</string>
+    <string name="usuarioList.text.nombreUsuarioDefault">Usuario</string>
+    <string name="usuarioList.text.codigoSeguridadUsuario">Cod Seguridad: %s</string>
+    <string name="usuarioList.text.codigoSeguridadUsuarioDefault">Cod Seguridad</string>
+    <string name="usuarioList.text.errorObtenerUsuarios">No se encontraron Usuarios</string>
+    <string name="usuarioList.text.eliminarUsuario">No se encontraron Usuarios</string>
+    <string name="usuarioList.text.errorEliminarUsuarios">No se pudo eliminar el Usuario</string>
+    <string name="usuarioList.text.errorEliminarUsuarioAdmin">No se pudo eliminar el Usuario Administrador</string>
+
+    <string name="agregarUsuario.text.agregarUsuario">Agregar Usuario</string>
+    <string name="agregarUsuario.text.agregarUsuarioAdd">Agregar</string>
+    <string name="agregarUsuario.text.agregarUsuarioCancel">Cancelar</string>
+    <string name="agregarUsuario.hint.nombreUsuario">Usuario</string>
+    <string name="agregarUsuario.hint.codigoSeguridadUsuario">Cod Seguridad</string>
+    <string name="agregarUsuario.error.agregarUsuarioError">No se pudo registrar el usuario</string>
+
+    <string name="menu.action.sign_off">Cerrar</string>
+    <string name="menu.action.connectSocket">Connect Socket</string>
+</resources>
